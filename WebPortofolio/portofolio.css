@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f0e5;
+    color: #333;
+    margin: 0; /
+    padding: 60px; 
+    scroll-behavior: smooth;
+    
+  }
+  
+  .judul{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .judul h1{
+    font-size: 30px;
+    color: #f8f0e5;
+    text-align: center;
+    padding: 60px;
+
+  }
+  
+  header {
+    background-color: #f06292;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  nav{
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Item di tengah secara horizontal */
+}
+  
+  nav ul li {
+    margin-right: 80px;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Efek transisi warna font */
+  }
+  
+  nav a:hover {
+    color: #e68aa3; /* Warna saat dihover */
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  .hero {
+    background-color: #fce4ec;
+    padding: 20px ;
+    text-align: center;
+    margin: 0;
+  }
+  .profile-picture img {
+    width: 310px;
+    height: 310px;
+    background-image: url('fotoprofil.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  .hero h1{
+    color: #f06292;
+    font-size: 30px;
+
+  }
+  .hero p{
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  
+   h1,h2, h3 {
+    color: #f06292;
+    padding: 30px;
+    font-size: 20px;
+  }
+  .about-me p{
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .my-project p{
+    padding: 20px;
+    font-size: 18px;
+  }
+  .contact-me p {
+    padding: 5px;
+    font-size: 18px;
+
+  }
+  
+  footer {
+    background-color: #f06292;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+  }
+  .kritik-saran {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.kritik-saran h3 {
+    color: white;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button[type="button"] {
+    background-color: #94878b;
+    color: black;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e68aa3;
+}
